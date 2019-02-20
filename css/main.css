@@ -1,6 +1,12 @@
+html{
+  background-color:#8b0000;
+}
 .topnav{
     overflow: hidden;
   background-color:navy;
+  border-style:solid;
+  border-color:#C5B358;
+  border-radius:10px;
 }
 li {
   float: left;
@@ -8,12 +14,13 @@ li {
 text-align: center;
 padding: 16px 16px;
 text-decoration: none;
-font-size:16px;
+font-size:20px;
 display: inline-block;
 }
 li a:hover {
- background-color: #ddd;
- color: navy;
+ background-color: #C5B358;
+ color: white;
+ border-radius:5px;
 }
 li a.active {
   background-color: navy;
@@ -27,15 +34,36 @@ input{
   font-weight:bold;
   width:250px;
   font-size:15px;
-
+border-radius:7px;
 }
 a {
   text-decoration:none;
   color:white;
-font-size:23px;
+font-size:22px;
 font-weight:bold;
-border-style: solid;
-border-color:red;
+border-bottom:2px solid #C5B358;
+}
+.sidebar{
+  height:700px;
+  width:350px;
+  background-color:navy;
+  border-radius:25px;
+  border-style:solid;
+  border-color:#C5B358;
+  margin-top:7px;
+}
+.sidebar h1{
+color:white;
+text-align:center;
+border-bottom: 3px solid #C5B358;
+}
+footer {
+display:block;
+background-color:navy;
+height:50px;
+border-style:solid;
+border-color:#c5b358;
+border-width:3px;
+margin-top:7px;
 border-radius:7px;
-border-width:1.5px;
 }
