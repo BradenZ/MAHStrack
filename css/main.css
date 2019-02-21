@@ -57,6 +57,22 @@ color:white;
 text-align:center;
 border-bottom: 3px solid #C5B358;
 }
+.infobar{
+  height:650px;
+  width:350px;
+  background-color:navy;
+  border-radius:25px;
+  border-style:solid;
+  border-color:#C5B358;
+  position:absolute;
+  right: 7px;
+  margin-bottom:7px;
+}
+.infobar h1{
+  color:white;
+  text-align: center;
+  border-bottom: 3px solid #C5B358;
+}
 footer {
 display:block;
 background-color:navy;
@@ -64,6 +80,6 @@ height:50px;
 border-style:solid;
 border-color:#c5b358;
 border-width:3px;
-margin-top:7px;
+margin-top:700px;
 border-radius:7px;
 }
