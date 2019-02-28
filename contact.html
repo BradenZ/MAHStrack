@@ -37,38 +37,44 @@
     }
 
     input[type=submit] {
-      background-color: #4CAF50;
+      background-color: #8b0000;
       color: white;
-      padding: 12px 20px;
-      border: none;
+      padding:20px;
+      padding-top:14px;
+      border:solid;
       border-radius: 4px;
       cursor: pointer;
+      border-color:#C5B358;
     }
 
     input[type=submit]:hover {
-      background-color: #45a049;
+      background-color: #C5B358;
     }
 
     .container {
       border-radius: 5px;
       background-color: navy;
       padding: 20px;
+      padding-bottom: 70px;
+    }
+    h1{
+      text-align:center;
+      border-bottom: solid;
+      border-color:#c5b358;
     }
     </style>
     </head>
     <body>
 
-    <h3>Contact Form</h3>
+    <h1>Contact Form</h1>
 
     <div class="container">
       <form action="/action_page.php">
-        <label for="name">Name</label>
+
         <input type="text" id="name" name="name" placeholder="Your name..">
 
-        <label for="mail">Email</label>
-        <input type="text" id="mail" name="email" placeholder="Your email">
+        <input type="text" id="mail" name="email" placeholder="Your email..">
 
-        <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Your comments.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">

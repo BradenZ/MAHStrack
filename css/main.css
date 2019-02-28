@@ -93,3 +93,6 @@ border-radius:7px;
     column-gap: 5rem;
   }
 }
+label{
+  color:white;
+}
