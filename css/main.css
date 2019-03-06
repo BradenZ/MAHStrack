@@ -94,23 +94,25 @@ label{
     margin:50px auto;
     font: 13px/1.5 "Helvetica Neue", Helvatica, Arial, san-serif;
     display:table;
+    border:solid;
+    border-color:#c5b485;
+    border-radius:10px;
+    border-width:5px;
 }
 
 #cal .header {
     cursor:default;
-    background: #cd310d;
-    background: -moz-linear-gradient(top, #b32b0c, #cd310d);
-    background: -webkit-gradient(linear, left top, left bottom, from(#b32b0c), to(#cd310d));
-    height: 110px;
-    width: 700px;
+    background: #8b0000;
+    height: 100%;
+    width:100%;
     position: relative;
     color:#fff;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     font-weight:bold;
     text-shadow:0px -1px 0 #87260C;
     text-transform: uppercase;
@@ -118,6 +120,7 @@ label{
 #cal .header span {
     display:inline-block;
     line-height:34px;
+
 }
 
 #cal .header .button {
@@ -130,12 +133,10 @@ label{
     -webkit-border-top-left-radius: 5px;
     -moz-border-radius-topleft: 5px;
     border-top-left-radius: 5px;
-    border-right:1px solid #ae2a0c;
 }
 #cal .header .right.button {
     right:0;
     top:0;
-    border-left:1px solid #ae2a0c;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topright: 5px;
     border-top-right-radius: 5px;
@@ -155,7 +156,7 @@ label{
 }
 #cal td {
     color:#c5b385;
-    width:110px;
+    width:120px;
     height:90px;
     line-height:30px;
     text-align:center;
