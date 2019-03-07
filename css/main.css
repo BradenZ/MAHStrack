@@ -80,7 +80,7 @@ height:50px;
 border-style:solid;
 border-color:#c5b358;
 border-width:3px;
-margin-top:700px;
+margin-top:1000px;
 border-radius:7px;
 }
 
@@ -204,4 +204,21 @@ label{
 }
 #cal #cal-frame table.temp {
     position:absolute;
+}
+.column {
+color:#fff;
+list-style-type: none;
+line-height:25px;
+text-align:center;
+}
+#strong{
+  font-size: 45px;
+margin-bottom:20px;
+margin-top:17px;
+border-bottom: double;
+border-color:#c5b385;
+border-width:7px;
+}
+ul{
+  list-style-type:none;
 }
