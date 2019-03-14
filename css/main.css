@@ -102,7 +102,7 @@ label{
 
 #cal .header {
     cursor:default;
-    background: navy;
+    background: #8b0000;
     height: 100%;
     width:100%;
     position: relative;
@@ -149,7 +149,6 @@ label{
     letter-spacing: 1px;
     width: 100%;
     text-align: center;
-
 }
 #cal table {
     background:navy;
@@ -184,7 +183,9 @@ label{
 #cal #cal-frame td:not(.nil):hover {
     color:#fff;
     text-shadow: #6C1A07 0px -1px;
-    background:#8b0000;
+    background:#CD310D;
+    background: -moz-linear-gradient(top, #b32b0c, #cd310d);
+    background: -webkit-gradient(linear, left top, left bottom, from(#b32b0c), to(#cd310d));
     -moz-box-shadow:0px 0px 0px;
     -webkit-box-shadow:0px 0px 0px;
 }
@@ -219,6 +220,7 @@ border-color:#c5b385;
 border-width:4px;
 line-height:35px;
 
+}
 ul{
   list-style-type:none;
 }
