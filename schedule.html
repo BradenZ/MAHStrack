@@ -66,8 +66,7 @@
        	label    = wrap.find("#label");
        	wrap.find("#prev").bind("click.calendar", function () { switchMonth(false); });
        	wrap.find("#next").bind("click.calendar", function () { switchMonth(true);  });
-       	label.bind("click", function () { switchMonth(null, new Date().getMonth(), new Date().getFullYear()); });
-       	label.click();
+       	label.bind("click", function () { switchMonth(null, new Date().getMonth(), new label.click();
 	    }
 
 	    function switchMonth(next, month, year) {
