@@ -3,7 +3,7 @@ html{
 }
 .topnav{
     overflow: hidden;
-  background-color:navy;
+  background-color:#002a5c;
   border-style:solid;
   border-color:#C5B358;
   border-radius:10px;
@@ -23,7 +23,7 @@ li a:hover {
  border-radius:5px;
 }
 li a.active {
-  background-color: navy;
+  background-color: #002a5c;
   color:white;
 }
 input{
@@ -46,7 +46,7 @@ border-bottom:2px solid #C5B358;
 .sidebar{
   height:700px;
   width:350px;
-  background-color:navy;
+  background-color:#002a5c;
   border-radius:25px;
   border-style:solid;
   border-color:#C5B358;
@@ -60,7 +60,7 @@ border-bottom: 3px solid #C5B358;
 .infobar{
   height:650px;
   width:350px;
-  background-color:navy;
+  background-color:#002a5c;
   border-radius:25px;
   border-style:solid;
   border-color:#C5B358;
@@ -75,7 +75,7 @@ border-bottom: 3px solid #C5B358;
 }
 footer {
 display:block;
-background-color:navy;
+background-color:#002a5c;
 height:50px;
 border-style:solid;
 border-color:#c5b358;
@@ -89,8 +89,6 @@ label{
 }
 
 #cal {
-    -moz-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25);
     margin:50px auto;
     font: 13px/1.5 "Helvetica Neue", Helvatica, Arial, san-serif;
     display:table;
@@ -102,19 +100,14 @@ label{
 
 #cal .header {
     cursor:default;
-    background: navy;
+    background: #002a5c;
     height: 100%;
     width:100%;
     position: relative;
     color:#fff;
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -moz-border-radius-topleft: 10px;
-    -moz-border-radius-topright: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-weight:bold;
-    text-shadow:0px -1px 0 #87260C;
     text-transform: uppercase;
 }
 #cal .header span {
@@ -130,20 +123,15 @@ label{
 }
 #cal .header .left.button {
     left:0;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
     border-top-left-radius: 5px;
 }
 #cal .header .right.button {
     right:0;
     top:0;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
     border-top-right-radius: 5px;
 }
 #cal .header .button:hover {
-    background: -moz-linear-gradient(top, #d94215, #bb330f);
-    background: -webkit-gradient(linear, left top, left bottom, from(#d94215), to(#bb330f));
+    background: #8b0000;
 }
 #cal .header .month-year {
     letter-spacing: 1px;
@@ -151,7 +139,7 @@ label{
     text-align: center;
 }
 #cal table {
-    background:navy;
+    background:#002a5c;
     border-collapse:collapse;
 }
 #cal td {
@@ -176,13 +164,9 @@ label{
 #cal #cal-frame td.today {
     background:white;
     color:#8c8c8c;
-    box-shadow:1px 1px 0px #fff inset;
-    -moz-box-shadow:1px 1px 0px #fff inset;
-    -webkit-box-shadow:1px 1px 0px #fff inset;
 }
 #cal #cal-frame td:not(.nil):hover {
     color:#fff;
-    text-shadow: #6C1A07 0px -1px;
     background:#8b0000;
 }
 #cal #cal-frame td span {
