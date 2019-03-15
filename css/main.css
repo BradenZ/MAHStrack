@@ -3,7 +3,7 @@ html{
 }
 .topnav{
     overflow: hidden;
-  background-color:navy;
+  background-color:#002a5c;
   border-style:solid;
   border-color:#C5B358;
   border-radius:10px;
@@ -23,7 +23,7 @@ li a:hover {
  border-radius:5px;
 }
 li a.active {
-  background-color: navy;
+  background-color: #002a5c;
   color:white;
 }
 input{
@@ -46,7 +46,7 @@ border-bottom:2px solid #C5B358;
 .sidebar{
   height:700px;
   width:350px;
-  background-color:navy;
+  background-color:#002a5c;
   border-radius:25px;
   border-style:solid;
   border-color:#C5B358;
@@ -60,7 +60,7 @@ border-bottom: 3px solid #C5B358;
 .infobar{
   height:650px;
   width:350px;
-  background-color:navy;
+  background-color:#002a5c;
   border-radius:25px;
   border-style:solid;
   border-color:#C5B358;
@@ -75,7 +75,7 @@ border-bottom: 3px solid #C5B358;
 }
 footer {
 display:block;
-background-color:navy;
+background-color:#002a5c;
 height:50px;
 border-style:solid;
 border-color:#c5b358;
@@ -102,7 +102,7 @@ label{
 
 #cal .header {
     cursor:default;
-    background: navy;
+    background: #002a5c;
     height: 100%;
     width:100%;
     position: relative;
@@ -151,7 +151,7 @@ label{
     text-align: center;
 }
 #cal table {
-    background:navy;
+    background:#002a5c;
     border-collapse:collapse;
 }
 #cal td {
