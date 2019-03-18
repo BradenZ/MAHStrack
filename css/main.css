@@ -77,6 +77,10 @@ border-bottom: 3px solid #C5B358;
   text-align: center;
   border-bottom: 3px solid #C5B358;
 }
+#MDTP{
+margin-right:500px;
+margin-left:7px;
+}
 
 footer {
 display:block;
