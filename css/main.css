@@ -78,7 +78,7 @@ border-bottom: 3px solid #C5B358;
   border-bottom: 3px solid #C5B358;
 }
 
-footer {
+#galfoot {
 display:block;
 background-color:#002a5c;
 height:50px;
@@ -96,6 +96,46 @@ border-radius:7px;
   border-color:#c5b358;
   border-width:3px;
   margin-top:700px;
+  border-radius:7px;
+}
+#rostfoot{
+  display:block;
+  background-color:#002a5c;
+  height:50px;
+  border-style:solid;
+  border-color:#c5b358;
+  border-width:3px;
+  margin-top:1000px;
+  border-radius:7px;
+}
+#schedulefoot{
+  display:block;
+  background-color:#002a5c;
+  height:50px;
+  border-style:solid;
+  border-color:#c5b358;
+  border-width:3px;
+  margin-top:100px;
+  border-radius:7px;
+}
+#merchfoot{
+  display:block;
+  background-color:#002a5c;
+  height:50px;
+  border-style:solid;
+  border-color:#c5b358;
+  border-width:3px;
+  margin-top:1000px;
+  border-radius:7px;
+}
+#confoot{
+  display:block;
+  background-color:#002a5c;
+  height:50px;
+  border-style:solid;
+  border-color:#c5b358;
+  border-width:3px;
+  margin-top:30px;
   border-radius:7px;
 }
 label{
