@@ -16,6 +16,7 @@ padding: 16px 16px;
 text-decoration: none;
 font-size:15px;
 display: inline-block;
+font-family:georgia;
 }
 li a:hover {
  background-color: #C5B358;
@@ -95,7 +96,7 @@ border-radius:7px;
   border-style:solid;
   border-color:#c5b358;
   border-width:3px;
-  margin-top:700px;
+  margin-top:1400px;
   border-radius:7px;
 }
 #rostfoot{
